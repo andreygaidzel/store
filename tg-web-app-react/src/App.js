@@ -10,6 +10,7 @@ function App() {
     }, [])
 
     const onClose = () => {
+        console.log(33, tg);
         tg.close();
     }
 
