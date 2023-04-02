@@ -17,6 +17,9 @@ function App() {
         <div className="App">
             work
             <button onClick={onClose}>Close</button>
+            <span className={'username'}>
+                {tg.initDataUnsafe?.user?.username}
+            </span>
         </div>
     );
 }
