@@ -1,6 +1,6 @@
 const TelegramBot = require('node-telegram-bot-api');
 
-const token = '6111268816:AAGTvWFxr6N_zvkVt4HAJShXMs-Cv4Hc4zk';
+const token = '';
 const webAppUrl = 'https://genuine-vacherin-ab339b.netlify.app/';
 
 const bot = new TelegramBot(token, { polling: true });
